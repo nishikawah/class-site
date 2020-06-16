@@ -63,11 +63,11 @@ ul {
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 50px;
-  right: 200px;
+  top: 100px;
+  right: 80px;
 
 }
 
 .right-align {
-  margin: 10px;
+  margin: 40px;
 }
