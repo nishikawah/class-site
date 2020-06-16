@@ -4,5 +4,9 @@
 
 body {
   background-color: orchid;
-  margin: 30px;
+}
+
+.about {
+  position: relative;
+  margin-right: 20px;
 }
