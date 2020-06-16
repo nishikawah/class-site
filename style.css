@@ -6,6 +6,12 @@ body {
   background-color: #FFFAF0;
 }
 
+a {
+  font-family: poynter-oldstyle-display, serif;
+  font-style: bold;
+  font-size: 30px;
+}
+
 h1 {
  font-family: poynter-oldstyle-display, serif;
  font-style: bold;
@@ -45,5 +51,14 @@ ul {
 .align {
   position: fixed;
   right: 60px;
-  top: 20px;
+  top: 15px;
+}
+
+.right-align {
+  position: fixed;
+
+}
+
+.center {
+
 }
