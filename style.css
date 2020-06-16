@@ -60,6 +60,7 @@ ul {
 }
 
 .top-bottom {
+  position: fixed;
   display: flex;
   flex-direction: column;
   top: 50px;
@@ -68,6 +69,5 @@ ul {
 }
 
 .right-align {
-  position: fixed;
   margin: 10px;
 }
