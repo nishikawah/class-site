@@ -9,7 +9,7 @@ body {
 h1 {
  font-family: poynter-oldstyle-display, serif;
  font-style: bold;
- font-size: 110px;
+ font-size: 90px;
 }
 
 /* h2 {
@@ -42,4 +42,8 @@ ul {
   margin-right: 20px;
 }
 
-.
+.align {
+  position: fixed;
+  right: 60px;
+  top: 20px;
+}
