@@ -54,11 +54,12 @@ ul {
   top: 15px;
 }
 
-.right-align {
-  position: fixed;
-
+.top-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.center {
-
+.right-align {
+  position: fixed;
 }
