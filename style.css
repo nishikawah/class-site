@@ -2,13 +2,8 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%
-}
-
 body {
   background-color: #FFFAF0;
-  height: 100%;
 }
 
 a {
@@ -65,7 +60,6 @@ ul {
   flex-direction: column;
   top: 100px;
   right: 80px;
-
 }
 
 .right-align {
