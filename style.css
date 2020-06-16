@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: 
+  background-color: orchid width: 50%;
+  margin: 30px;
+
 }
