@@ -9,7 +9,7 @@ body {
 a {
   font-family: poynter-oldstyle-display, serif;
   font-style: bold;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 h1 {
@@ -56,10 +56,11 @@ ul {
 
 .top-bottom {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
 .right-align {
   position: fixed;
-  right: 15px;
+  right: 60px;
 }
