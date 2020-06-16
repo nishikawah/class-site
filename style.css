@@ -55,13 +55,13 @@ ul {
 }
 
 .top-bottom {
-  position: fixed;
   display: flex;
+  position: fixed;
   flex-direction: column;
-  top: 100px;
-  right: 80px;
+  top: 200px;
+  right: 20px;
 }
 
 .right-align {
-  margin: 40px;
+  margin: 20px;
 }
