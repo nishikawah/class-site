@@ -67,5 +67,6 @@ ul {
 .right-align {
   position: fixed;
   right: 200px;
+  top: 50px;
   margin: 10px;
 }
