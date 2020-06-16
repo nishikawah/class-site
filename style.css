@@ -36,6 +36,12 @@ ul {
  font-style: italic;
 }
 
+.red {
+  font-family: poynter-oldstyle-display, serif;
+  font-style: bold;
+  color: red;
+}
+
 
 .about {
   position: relative;
