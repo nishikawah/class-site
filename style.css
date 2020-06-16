@@ -56,9 +56,9 @@ ul {
 
 .top-bottom {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  margin: 12px
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .right-align {
