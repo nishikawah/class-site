@@ -6,6 +6,38 @@ body {
   background-color: #DA70D6;
 }
 
+h1 {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+h2 {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+h3 {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+p {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+ul {
+ background-color: blue;
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+.em{
+ font-family: poynter-oldstyle-display, serif;
+ font-style: italic;
+}
+
+
 .about {
   position: relative;
   margin-right: 20px;
