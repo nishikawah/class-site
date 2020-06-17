@@ -56,10 +56,9 @@ ul {
 
 .top-bottom {
   display: flex;
-  position: fixed;
   flex-direction: column;
   justify-content: space-between;
+  height: 200px;
   top: 200px;
-  right: 60px;
-  margin: 100px;
+  margin: 60px;
 }
