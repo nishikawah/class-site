@@ -64,6 +64,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  top: 100%;
-  margin: 60px;
+  top: 10px;
+  left: 30px;
 }
