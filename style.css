@@ -55,6 +55,8 @@ ul {
 
 .align {
   position: fixed;
+  display: flex;
+  flex-direction: row;
   right: 70px;
   top: 10px;
 }
