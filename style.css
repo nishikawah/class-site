@@ -59,9 +59,6 @@ ul {
   position: fixed;
   flex-direction: column;
   top: 200px;
-  right: 20px;
-}
-
-.right-align {
-  margin: 100px;
+  right: 60px;
+  margin: 30px;
 }
