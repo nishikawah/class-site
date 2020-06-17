@@ -58,6 +58,7 @@ ul {
   display: flex;
   position: fixed;
   flex-direction: column;
+  justify-content: space-between;
   top: 200px;
   right: 60px;
   margin: 30px;
