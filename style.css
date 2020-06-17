@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #FFFAF0;
+  height: 100%;
 }
 
 a {
@@ -50,15 +55,14 @@ ul {
 
 .align {
   position: fixed;
-  right: 60px;
-  top: 15px;
+  right: 70px;
+  top: 10px;
 }
 
 .top-bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 200px;
-  top: 200px;
+  top: 100%;
   margin: 60px;
 }
