@@ -64,6 +64,6 @@ ul {
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 10px;
-  left: 30px;
+  top: 50px;
+  left: 90px;
 }
