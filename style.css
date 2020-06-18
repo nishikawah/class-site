@@ -77,13 +77,13 @@ ul {
 }
 
 .redhover{
+  position: absolute;
   font-family: poynter-oldstyle-display, serif;
   font-style: bold;
-
+  display: none;
 }
 
 .redhover:hover {
-  font-family: poynter-oldstyle-display, serif;
-  font-style: bold;
   color:rgb(204, 48, 48);
+  display: block;
 }
