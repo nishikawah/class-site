@@ -78,11 +78,11 @@ ul {
 
 .redhover{
   position: absolute;
-  display: none;
+  display: block;
 }
 
 .redhover:hover {
   position: absolute;
   color:rgb(204, 48, 48);
-  display: block;
+  display: none;
 }
