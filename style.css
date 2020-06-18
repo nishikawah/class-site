@@ -82,6 +82,7 @@ ul {
 }
 
 .redhover:hover {
+  position: absolute;
   color:rgb(204, 48, 48);
   display: block;
 }
