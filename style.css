@@ -76,8 +76,14 @@ ul {
   left: 70px;
 }
 
+.redhover{
+  font-family: poynter-oldstyle-display, serif;
+  font-style: bold;
+
+}
+
 .redhover:hover {
   font-family: poynter-oldstyle-display, serif;
   font-style: bold;
-  background-color: rgb(232, 55, 55);
+  color:rgb(204, 48, 48);
 }
