@@ -78,7 +78,7 @@ ul {
 
 .redhover{
   position: absolute;
-  display: block;
+  display: none;
 }
 
 .redhover:hover {
