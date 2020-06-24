@@ -79,6 +79,7 @@ ul {
 .redhover{
   position: absolute;
   display: none;
+  color: black;
 }
 
 .redhover:hover {
