@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #FFFAF0;
+  height: 100%;
+}
+
+a {
+  font-family: poynter-oldstyle-display, serif;
+  font-style: bold;
+}
+
+h1 {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: bold;
+ font-size: 90px;
+}
+
+/* h2 {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+} */
+
+h3 {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+p {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+ul {
+ font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+}
+
+.em{
+ font-family: poynter-oldstyle-display, serif;
+ font-style: italic;
+}
+
+.about {
+  position: relative;
+  margin-right: 20px;
+}
+
+.align {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  right: 70px;
+  top: 10px;
+}
+
+.top-bottom {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  left: 90px;
+}
+
+.under {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  left: 70px;
+}
+
+.redhover{
+  position: absolute;
+  display: none;
+}
+
+.redhover:hover {
+  position: absolute;
+  color:rgb(204, 48, 48);
+  display: block;
+}

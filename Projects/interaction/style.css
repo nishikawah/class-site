@@ -1,0 +1,77 @@
+body {
+  background: rgb(206, 165, 207)
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+p {
+  font-size: 21px;
+}
+
+/* a:hover {
+  color: blue;
+  font-size: 40px;
+} */
+
+.special {
+  color: green;
+  font-style: italic;
+}
+
+.special-img {
+  position: absolute;
+  opacity: 0;
+  /* display: none; */
+  transition: opacity 1s ease;
+}
+
+.special:hover {
+  color: red;
+}
+
+.special:hover .special-img {
+  opacity: 1;
+}
+
+.special-span {
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  opacity: 0;
+}
+
+.special:hover .spceial-span {
+  opacity: 1;
+}
+
+.one {
+  top: 300px;
+  left: 300px;
+}
+
+.two {
+  bottom: 100px;
+  right: 200px;
+}
+
+.object {
+  background: rgb(95, 3, 103);
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  transition: boreder-radius 2s ease,
+  background 1s ease,
+  transform 4s ease;
+}
+
+.object:hover {
+  border-radius: 0;
+  background: rgb(226, 244, 82);
+  transform: scale(2)
+}
