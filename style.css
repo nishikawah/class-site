@@ -69,7 +69,7 @@ ul {
 }
 
 .under {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   top: 100px;
