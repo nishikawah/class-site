@@ -55,7 +55,7 @@ ul {
 .align {
   position: fixed;
   display: flex;
-  flex-direction: row;
+  text-align: left;
   right: 70px;
   top: 10px;
 }
@@ -75,15 +75,3 @@ ul {
   top: 100px;
   left: 70px;
 }
-
-/* .redhover{
-  position: absolute;
-  display: none;
-  color: black;
-}
-
-.redhover:hover {
-  position: absolute;
-  color:rgb(204, 48, 48);
-  display: block;
-} */
