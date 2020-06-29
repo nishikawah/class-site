@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background:rgb(180, 215, 180);
+}
+
+img {
+  width: 27px;
+  height: 27px;
+}
+
+.box {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 15000px;
+  opacity: 60%;
+  background: rgb(122, 203, 221);
+  animation: run 10s linear infinite;
+  z-index: 1;
+}
+
+.strip {
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  height: 15px;
+  width: 1000px;
+  opacity: 20%;
+  background: white;
+  animation: run 10s linear infinite;
+  z-index: 2;
+}
+
+.strip2 {
+  position: fixed;
+  left: 3000px;
+  bottom: 700px;
+  height: 15px;
+  width: 700px;
+  opacity: 30%;
+  background: white;
+  animation: run 10s linear infinite;
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.center {
+ display: flex;
+ /* height: 10%; */
+ flex-direction: row;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
+.circle {
+  position: absolute;
+  animation: circle 1s linear infinite;
+  animation-delay: -2s;
+}
+
+.circle2 {
+  position: absolute;
+  animation: circle2 4s linear infinite;
+  animation-delay: -2s;
+}
+
+.circle3 {
+  position: absolute;
+  animation: circle3 7s linear infinite;
+  animation-delay: -2s;
+}
+
+.circle4 {
+  position: absolute;
+  animation: circle4 10s linear infinite;
+    animation-delay: -2s;
+}
+
+.circle5 {
+  position: absolute;
+  animation: circle5 6s linear infinite;
+    animation-delay: -2s;
+}
+
+.circle6 {
+  position: absolute;
+  animation: circle6 2s linear infinite;
+  animation-delay: -2s;
+}
+
+.circle7 {
+  position: absolute;
+  animation: circle7 0.5s linear infinite;
+  animation-delay: -2s;
+}
+
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+
+@keyframes circle2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+
+@keyframes circle3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+@keyframes circle4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+
+@keyframes circle5 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+
+@keyframes circle6 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+
+@keyframes circle7 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+
+}
+
+@keyframes run {
+  0% {
+    transform:translateX(-15000vw);
+  }
+
+  100% {
+    transform:translateX(100vw)
+  }
+}
