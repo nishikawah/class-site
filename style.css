@@ -79,3 +79,11 @@ ul {
   display: flex;
   flex-direction: row;
 }
+
+.align1 {
+  position: fixed;
+  display: flex;
+  text-align: left;
+  right: 70px;
+  top: 10px;
+}
