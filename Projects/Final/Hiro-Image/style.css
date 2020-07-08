@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poynter-oldstyle-display, serif;
+ font-style: normal;
+  margin: 0;
+  background:rgb(236, 236, 236);
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+.square {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.piccontainer {
+  display: flex;
+  height: 600px;
+  width: 950px;
+  background: black;
+}
+
+
+.left {
+  display: flex;
+  height: 600px;
+  width: 550px;
+  background-color: rgb(24, 24, 24);
+  justify-content: center;
+}
+
+
+.right {
+  display: flex;
+  height: 600px;
+  width: 400px;
+  background: rgb(24, 24, 24);
+}
+
+.inright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 40px;
+  /* height: 450px;
+  width: 450px; */
+  background: rgb(24, 24, 24);
+}
+
+.grid-item {
+  margin:10px;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  position: absolute;
+  display: block;
+  left: 50%;
+  bottom: 50%;
+}
+
+.description {
+  position: absolute;
+  font-size: 10px;
+  bottom: 5px;
+  right: 20px;
+}
+
+.marquee {
+  width: 100%; /* the plugin works for responsive layouts so width is not necessary */
+  height: 100%;
+  overflow: hidden;
+  border: NONE;
+  color: white;
+  font-size: 220px;
+}
